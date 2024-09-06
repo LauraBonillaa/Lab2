@@ -1,0 +1,80 @@
+.boton {
+    padding: 2rem 3.5rem 2rem 3.5rem;
+    
+   background-color: #ffffff00;
+   border: none;
+   font-size: medium;
+   font-weight: 800;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+    font-weight: 700;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.boton:hover {
+    padding: 2rem 3.5rem 2rem 3.5rem;
+    
+    background-color: #ffffff00;
+    border: none;
+    font-size: 15px;;
+    font-weight: 800;
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+     
+     font-weight: 700;
+     border-radius: 2rem 2rem 2rem 2rem;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 10rem 2rem 5rem;
+    color: #ffffff;
+}
+.img{
+    
+    padding: 0rem 3.5rem 0rem 3.5rem;
+    
+    width:7.5rem;
+}
+.img:hover{
+    
+    padding: 0rem 3.5rem 0rem 3.5rem;
+    
+    width:6rem;
+}
+.img2{
+    
+    padding: 0.1rem 3.5rem 0rem 3.5rem;
+    filter: grayscale(100%);
+    width:7.5rem;
+}
+.img2:hover{
+    
+    padding: 0.1rem 3.5rem 0rem 3.5rem;
+    filter: grayscale(0%);
+    width:7.5rem;
+}
+.img3{
+
+    padding: 0.8rem 3.5rem 0.8rem 3.5rem;
+    filter: grayscale(100%);
+    width:7rem;
+}
+.img3:hover{
+    
+    padding: 0.8rem 3.5rem 0.8rem 3.5rem;
+    filter: grayscale(0%);
+    width:7rem;
+}
+.opciones{
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    padding: 0rem 0rem 0rem 0rem;
+    border: 2px solid;
+ border-color: #ffffff;
+ border-left: none;
+ border-right: none;
+}

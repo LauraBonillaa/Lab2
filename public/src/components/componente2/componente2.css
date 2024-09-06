@@ -1,0 +1,74 @@
+.div{
+    background-image: url('https://store-images.s-microsoft.com/image/apps.5980.13510798887669283.9f4cd29a-ecef-4566-87f3-692bc32ff679.306d08ab-fe63-4b65-811e-86c9cb091f28?mode=scale&q=90&h=1080&w=1920');
+height: 45rem;
+}
+.botones{
+   
+    margin: 0rem 10rem 10rem 11rem;
+}
+
+.img{
+    margin: 15rem 1rem 1rem 5rem;
+    height: 10rem;
+    width: 40rem;
+}
+
+
+.boton1 {
+    
+    background-color: rgba(1, 38, 189, 0.574);
+    border: 2px solid;
+    border-color: #4326e9;
+    color: rgb(255, 255, 255);
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    font-weight: 700;
+
+}
+
+.boton1:hover {
+    background-color: rgba(44, 82, 236, 0.574);
+    border: 2px solid;
+    border-color: #4326e9;
+    color: rgb(255, 255, 255);
+    padding: 1rem 3rem 1rem 3rem;
+
+    border-radius: 2rem 2rem 2rem 2rem;
+    font-weight: 700;
+
+}
+
+.boton {
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    
+    background-color: #ffffff00;
+    border: 2px solid;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-weight: 700;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.boton:hover {
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    background-color: rgba(44, 82, 236, 0.574);
+    border: 2px solid;
+    border-color: #4326e9;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-weight: 700;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.titulo{
+    margin: 0rem 10rem 1rem 7rem;
+    color: #ffffff;
+}
