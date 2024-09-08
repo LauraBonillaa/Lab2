@@ -1,6 +1,6 @@
-class Cards extends HTMLElement {
+class Comunidad extends HTMLElement {
     static get observedAttributes() {
-        return ['img', 'alt', 'titulo', 'button', 'date'];
+        return ['img', 'alt'];
     }
 
     constructor() {
@@ -21,26 +21,21 @@ class Cards extends HTMLElement {
 
     render() {
         this.shadowRoot.innerHTML = `
-			<link rel="stylesheet" href="./src/components/componente4/componente4.css">
+			<link rel="stylesheet" href="./src/components/componente6/componente6.css">
 			
 		<div class="div">
-
-			
-			
             
+         
+           
             
             
             
            
+           
+
+           <img class="img" src=${this.img} alt=${this.alt}>
             
-            <img class="img" src=${this.img} alt=${this.alt}>
-            <p class="date" >${this.date}</p>
-            <h1 class="titulo"  >${this.titulo}</h1>
-            <div class="inferior">
             
-           <button class="boton">LEER MÁS</button>
-            
-            </div>
             
             
            
@@ -53,5 +48,5 @@ class Cards extends HTMLElement {
     }
 }
 
-customElements.define('product-cards', Cards);
-export default Cards;
+customElements.define('product-comunidad', Comunidad);
+export default Comunidad;

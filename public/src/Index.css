@@ -1,5 +1,75 @@
 *{
     margin: 0%;
-    background: radial-gradient(circle, rgb(160, 160, 160), rgb(0, 0, 0));
+    
     font-family: sans-serif;
+}
+
+.body{
+    background: radial-gradient(circle, rgb(160, 160, 160), rgb(0, 0, 0));
+}
+
+#cartas {
+    display: flex; /* Organiza los elementos de forma horizontal */
+  /* Distribuye los elementos con espacio alrededor */
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    background-color: none;
+    justify-content: center;
+    border: none;
+   
+} 
+.boton {
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    
+    background-color: #ffffff00;
+    border: 2px solid;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 7rem;
+    margin-left: 39rem;
+    font-weight: 700;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.boton:hover {
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    
+    background-color: #00039a;
+    border: 2px solid;
+    border-color: #004af7;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 7rem;
+    margin-left: 39rem;
+    font-weight: 700;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.titulo{
+    display: flex;
+    color: #ffffff;
+    margin: 5rem 0rem 2rem 27rem;
+justify-content: center;
+    border-bottom: 1px solid;
+    border-color: #ffffff;
+width: 35rem;
+
+padding: 0rem 0rem 1rem 0rem;
+}
+.fotos{
+    display: flex; /* Organiza los elementos de forma horizontal */
+    /* Distribuye los elementos con espacio alrededor */
+      align-items: start;
+      flex-wrap: wrap;
+      background-color: #ffffff00;
+      background-color: none;
+      justify-content: center;
+      border: none;
+      margin: 0rem 0rem 5rem 0rem ;
+
 }

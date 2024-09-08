@@ -1,19 +1,22 @@
+
+
 .div{
-    width: 28rem;
+    width: 26rem;
     height: 32rem;
     background: linear-gradient(to bottom, rgb(176, 176, 176), rgb(0, 0, 0));
-    margin-left: 2rem;
+    margin: 3rem 1rem 3rem 1rem;
     border-radius: 10px 10px 10px 10px;
+    
 }
 .img{
     height: 16rem;
-    width: 28rem;
+    width: 26rem;
     border-radius: 10px 10px 0px 0px;
 }
 
 .boton {
     padding: 2rem 1rem 1rem 1rem;
-    
+    margin-top: 1rem;
    background-color: #ffffff00;
    border: none;
    font-size: small;
@@ -26,6 +29,7 @@
 }
 
 .boton:hover {
+    margin-top: 1rem;
     padding: 2rem 0rem 1rem 1rem;
     
     background-color: #ffffff00;
@@ -49,3 +53,13 @@
     font-size:smaller;
     font-weight: 400;
 }
+.inferior{
+    width: 27.6rem;
+    height: 2rem;
+    background-image: url('https://github.com/LauraBonillaa/Lab2/blob/main/public/fotos/fotos/raya-carta.png?raw=true');
+ background-size: cover;
+ 
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+

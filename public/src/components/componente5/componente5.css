@@ -1,0 +1,60 @@
+.div{
+    display: flex;
+    background-color: black;
+    border: 1px solid;
+    border-color: #ffffff;
+height: 17rem;
+margin-bottom: 0rem;
+position: relative;
+
+}
+.img{
+    justify-content: end;
+   margin-left: 25rem;
+    height: 17rem;
+    
+
+    
+}
+.textos{
+    position: absolute;
+    width: 40rem;
+    flex-direction: column;
+}
+.titulo{
+    margin: 3rem 0rem 0rem 3rem;
+    color:#ffffff;
+    font-size: 20px;
+    
+}
+.subtitulo{
+    color: #ffffff;
+    margin: 1rem 0rem 0rem 3rem;
+    width:20rem;
+}
+.boton {
+    margin: 1.5rem 0rem 0rem 3rem;
+    padding: 1rem 2rem 1rem 2rem;
+    
+    background-color: #ffffff00;
+    border: 1px solid;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+    font-weight: 700;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.boton:hover {
+    margin: 1.5rem 0rem 0rem 3rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: rgba(44, 82, 236, 0.574);
+    border: 2px solid;
+    border-color: #4326e9;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  
+    font-weight: 700;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
